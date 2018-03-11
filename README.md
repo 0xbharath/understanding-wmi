@@ -32,3 +32,5 @@ More details [here](https://github.com/webpro/reveal-md)
     reveal-md -t black.css --separator "\n\n\n\n" --vertical-separator "\n\n\n" understanding_wmi.md
 
 Browse to  [http://localhost:1948/understanding-wmi.md#/](http://localhost:1948/understanding-wmi.md#/)
+
+**Use Space bar to navigate**
