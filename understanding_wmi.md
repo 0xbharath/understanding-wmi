@@ -10,7 +10,6 @@
 
 ### Agenda
 
-<small>
 - Why bother understanding WMI?
 - What is WMI?
 - WMI overview
@@ -19,8 +18,6 @@
 - Useful WMI queries
 - Offensive tools using WMI
 - Moving Forward
-
-</small>
 
 
 
