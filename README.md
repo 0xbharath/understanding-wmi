@@ -16,7 +16,7 @@ The outline of the talk:
 
 ## Outcomes and Objectives
 1. You will leave the talk with an understanding of WMI
-2. You'll get an insight into how WMI can be used in attacking, defending and administration if windows domains
+2. You'll get an insight into how WMI can be used in attacking, defending and administration of windows domains
 3. You'll get pointers towards setting up a lab that you can use to practice what you learnt in the talk
 
 
