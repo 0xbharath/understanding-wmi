@@ -1,7 +1,6 @@
 ### Understanding Windows Management Instrumentation(WMI)
 
 </br></br>
-
 #### null/OWASP/G4H BLR Meet 
 #### Bharath Kumar
 10th March 2018
@@ -9,7 +8,6 @@
 
 
 ### Agenda
-
 - Why bother understanding WMI?
 - What is WMI?
 - WMI overview
@@ -87,7 +85,7 @@ https://technet.microsoft.com/en-us/library/ee692772.aspx
 
 ### CIM/WMI
 
-- Representation if anything withing a computer system
+- Representation of anything within a computer system
     - Namespaces
     - Classes
     - Objects
@@ -120,8 +118,7 @@ https://technet.microsoft.com/en-us/library/ee692772.aspx
 - For example, `win32_fan` is a WMI class that represents properties of fan device on computer. This class might not have an object instance on VirtualBox guests 
 
 
-
-![wmi-architecture](imgs/wmi_architecture.png)
+![wmi-architecture](imgs/wmi_architecture.png) <!-- .element height="70%" width="70%" -->
 
 <small>
 https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf
@@ -131,7 +128,7 @@ https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Mana
 
 ### WMI using Powershell
 
-- **WMI cmdlets**
+**WMI cmdlets**
 
 ```
 Get-Command -Noun wmi*
@@ -147,7 +144,7 @@ https://msdn.microsoft.com/en-us/library/ee309379(v=vs.85).aspx
 </small>
 
 
-- **CIM cmdlets**
+**CIM cmdlets**
 
 ```
 Get-Command -Noun cmi*
@@ -168,7 +165,7 @@ https://blogs.msdn.microsoft.com/powershell/2012/08/24/introduction-to-cim-cmdle
 Get-WMIObject -Namespace root -Class "__Namespace" | select name
 ```
 
-![namespaces](imgs/namespaces.png)
+![namespaces](imgs/namespaces.png) <!-- .element height="60%" width="60%" -->
 
 
 ### Get user account details
@@ -343,6 +340,7 @@ https://github.com/StefanScherer/adfs2
 
 - Active Directory environment can be setup painlessly(subjective) on cloud services like AWS, Azure
 - Instructions to set up AD in the cloud: TBD
+
 
 
 ## References
